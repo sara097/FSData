@@ -10,10 +10,10 @@ class Measurement(
     val supervisor: String,
     val user: User,
     val hand: Hand,
-    val aimDisplaying: List<Pair<String, Int>>?,
-    val timeOnSide: List<Pair<Side, Int>>,
-    val tapCoordinatesLeft: List<Pair<Int, Coordinates>?>,
-    val tapCoordinatesRight: List<Pair<Int, Coordinates>?>
+    val aimDisplaying: List<Pair<Long, Side>>?,
+    val timeSide: List<Pair<Long, Side>>,
+    val tapCoordinatesLeft: List<Pair<Long, Coordinates>?>,
+    val tapCoordinatesRight: List<Pair<Long, Coordinates>?>
     ) {
 
 }
